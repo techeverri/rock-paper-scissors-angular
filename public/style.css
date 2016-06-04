@@ -1,0 +1,43 @@
+.god-md-table {
+    margin-bottom: 16px;
+    max-width: 100%;
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.god-md-table {
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.god-md-table td, .god-md-table th {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.god-md-table td {
+    vertical-align: top;
+}
+
+.god-md-table td.description *:first-child {
+    margin-top: 0;
+}
+
+.god-md-table td.description *:last-child {
+    margin-bottom: 0;
+}
+
+.god-md-table tr:nth-child(odd) td {
+    background-color: #E3ECF5;
+}
+
+.god-md-table tr:nth-child(even) td {
+    background-color: #D1DEEC;
+}
+
+.god-md-table th {
+    background-color: #4C9EF0;
+    color: white;
+}

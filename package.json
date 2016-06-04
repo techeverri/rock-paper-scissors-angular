@@ -1,0 +1,41 @@
+{
+  "name": "game-of-drones",
+  "version": "0.0.1",
+  "description": "In Game of Drones there are two players trying to conquer each other",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "debug": "node-debug server.js"
+  },
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-animate": "^1.5.6",
+    "angular-aria": "^1.5.6",
+    "angular-material": "^1.0.9",
+    "angular-route": "^1.5.6",
+    "body-parser": "^1.15.1",
+    "express": "^4.12.4",
+    "jquery": "^2.2.4",
+    "lodash": "^4.13.1",
+    "lowdb": "^0.13.0-beta-5",
+    "open": "0.0.5"
+  },
+  "devDependencies": {
+    "node-inspector": "^0.12.8",
+    "nodemon": "^1.9.2"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techeverri/game-of-drones"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "angular"
+  ],
+  "license": "MIT"
+}

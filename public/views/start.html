@@ -1,0 +1,35 @@
+<div class="md-padding" layout="row">
+    <div flex>
+        <h1 class="md-title">Enter Player's Names</h1>
+        <md-content layout-padding>
+            <form name="startForm">
+                <md-input-container class="md-block">
+                    <label>Player 1</label>
+                    <input required md-no-asterisk name="player1" ng-model="vm.player1">
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Player 2</label>
+                    <input required md-no-asterisk name="player2" ng-model="vm.player2">
+                </md-input-container>
+                <md-button ng-click="vm.start()" ng-disabled="startForm.$invalid" class="md-raised md-primary">Start</md-button>
+            </form>
+        </md-content>
+    </div>
+    <div flex>
+        <h1 class="md-title">Leaderboard</h1>
+        <md-content layout-padding>
+            <table class="god-md-table">
+                <thead>
+                    <th>Player</th>
+                    <th>Wins</th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="score in vm.scores | orderBy: '-wins'">
+                        <td>{{score.player}}</td>
+                        <td>{{score.wins}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </md-content>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+{
+  "moves": [
+    {
+      "name": "Paper",
+      "beats": "Rock"
+    },
+    {
+      "name": "Rock",
+      "beats": "Scissors"
+    },
+    {
+      "name": "Scissors",
+      "beats": "Paper"
+    }
+  ],
+  "scores": []
+}

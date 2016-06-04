@@ -1,0 +1,44 @@
+<div class="md-padding" layout="row">
+    <div flex>
+        <h1 class="md-title">Round {{vm.round}}</h1>
+        <md-content layout-padding>
+            <form name="vm.player1Form" ng-hide="vm.player1Ok">
+                <h1 class="md-title">{{vm.player1}}</h1>
+                <md-input-container class="md-block">
+                    <label>Select move</label>
+                    <md-select ng-model="vm.player1move" required>
+                        <md-option ng-repeat="move in vm.moves" ng-value="move">{{move.name}}</md-option>
+                    </md-select>
+                </md-input-container>
+                <md-button ng-click="vm.player1Ok = true" ng-disabled="vm.player1Form.$invalid" class="md-raised md-primary">Ok</md-button>
+            </form>
+            <form name="vm.player2Form" ng-hide="!vm.player1Ok || vm.player2Ok">
+                <h1 class="md-title">{{vm.player2}}</h1>
+                <md-input-container class="md-block">
+                    <label>Select move</label>
+                    <md-select ng-model="vm.player2move" required>
+                        <md-option ng-repeat="move in vm.moves" ng-value="move">{{move.name}}</md-option>
+                    </md-select>
+                </md-input-container>
+                <md-button ng-click="vm.player2Ok = true; vm.roundResult()" ng-disabled="vm.player2Form.$invalid" class="md-raised md-primary">Ok</md-button>
+            </form>
+        </md-content>
+    </div>
+    <div flex>
+        <h1 class="md-title">Score</h1>
+        <md-content layout-padding>
+            <table class="god-md-table">
+                <thead>
+                    <th>Round</th>
+                    <th>Winner</th>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="score in vm.scores">
+                        <td>{{score.round}}</td>
+                        <td>{{score.winner}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </md-content>
+    </div>
+</div>

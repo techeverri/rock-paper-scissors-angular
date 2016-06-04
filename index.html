@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="game-of-drones">
+
+<head>
+    <title>Game of Drones</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/angular-material/angular-material.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <div layout="column" ng-cloak>
+        <md-toolbar class="md-primary">
+            <div class="md-toolbar-tools">
+                <h2 class="md-flex">Game of Drones</h2>
+            </div>
+        </md-toolbar>
+        <div ng-view></div>
+    </div>
+
+    <script src="/lodash/lodash.js"></script>
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-animate/angular-animate.js"></script>
+    <script src="/angular-route/angular-route.js"></script>
+    <script src="/angular-aria/angular-aria.js"></script>
+    <script src="/angular-material/angular-material.js"></script>
+    <script src="/app.module.js"></script>
+    <script src="/app.config.js"></script>
+    <script src="/services/players.service.js"></script>
+    <script src="/services/moves.service.js"></script>
+    <script src="/services/scores.service.js"></script>
+    <script src="/controllers/start.controller.js"></script>
+    <script src="/controllers/play.controller.js"></script>
+
+</body>
+
+</html>
