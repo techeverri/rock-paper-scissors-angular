@@ -22,8 +22,8 @@
     "open": "0.0.5"
   },
   "devDependencies": {
-    "node-inspector": "^0.12.8",
-    "nodemon": "^1.9.2"
+    "node-inspector": "0.12.10",
+    "nodemon": "1.18.11"
   },
   "engines": {
     "node": "4.4.5"
