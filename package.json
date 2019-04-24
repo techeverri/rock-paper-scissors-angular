@@ -18,7 +18,7 @@
     "express": "^4.12.4",
     "jquery": "^3.0.0",
     "lodash": "^4.13.1",
-    "lowdb": "^0.17.0",
+    "lowdb": "^1.0.0",
     "open": "0.0.5"
   },
   "devDependencies": {
