@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "node-inspector": "1.1.2",
-    "nodemon": "1.18.11"
+    "nodemon": "1.19.1"
   },
   "engines": {
     "node": "4.9.1"
