@@ -4,11 +4,11 @@ var PORT = process.env.PORT || 80;
 // lowdb
 
 var low = require('lowdb');
-var fileAsync = require('lowdb/lib/file-async');
+const FileSync = require('lowdb/adapters/FileSync')
 
-var db = low('db.json', {
-    storage: fileAsync
-})
+const adapter = new FileSync('db.json')
+
+const db = low(adapter)
 
 // express
 
