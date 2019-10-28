@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('game-of-drones')
+        .module('rock-paper-scissors')
         .config(['$routeProvider', function ($routeProvider) {
             $routeProvider
                 .when('/start', {
@@ -21,7 +21,7 @@
         }]);
 
     angular
-        .module('game-of-drones')
+        .module('rock-paper-scissors')
         .config(['$mdThemingProvider', function ($mdThemingProvider) {
             $mdThemingProvider.theme('default')
                 .primaryPalette('blue');

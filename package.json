@@ -1,5 +1,5 @@
 {
-  "name": "game-of-drones",
+  "name": "rock-paper-scissors",
   "version": "0.0.1",
   "description": "In Rock, Paper, Scissors there are two players trying to conquer each other",
   "main": "server.js",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/techeverri/game-of-drones"
+    "url": "https://github.com/techeverri/rock-paper-scissors"
   },
   "keywords": [
     "node",

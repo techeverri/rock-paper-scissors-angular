@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('game-of-drones')
+        .module('rock-paper-scissors')
         .service('PlayersService', PlayersService);
 
     function PlayersService() {

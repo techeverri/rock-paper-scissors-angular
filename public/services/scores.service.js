@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('game-of-drones')
+        .module('rock-paper-scissors')
         .service('ScoresService', ScoresService);
 
     ScoresService.$inject = ['$http']

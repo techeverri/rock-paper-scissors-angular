@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('game-of-drones')
+        .module('rock-paper-scissors')
         .controller('StartController', StartController);
 
     StartController.$inject = ['$location', 'PlayersService', 'ScoresService'];
