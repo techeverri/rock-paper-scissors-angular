@@ -10,14 +10,14 @@ To get you started you can simply clone the repository and install the dependenc
 
 You need git to clone the repository. You can get git from http://git-scm.com/.
 
-We also use a number of Node.js tools to initialize and run rock-paper-scissors. You must have Node.js and its package manager (npm) installed. You can get them from http://nodejs.org/.
+We also use a number of Node.js tools to initialize and run rock-paper-scissors-angular. You must have Node.js and its package manager (npm) installed. You can get them from http://nodejs.org/.
 
 ### Clone
 
-Clone the rock-paper-scissors repository using git:
+Clone the rock-paper-scissors-angular repository using git:
 
-    git clone https://github.com/techeverri/rock-paper-scissors.git
-    cd rock-paper-scissors
+    git clone https://github.com/techeverri/rock-paper-scissors-angular.git
+    cd rock-paper-scissors-angular
 
 ### Install Dependencies
 
