@@ -1,6 +1,6 @@
-# Game of Drones
+# Rock, Paper, Scissors
 
-> In Game of Drones there are two players trying to conquer each other.
+> In Rock, Paper, Scissors there are two players trying to conquer each other.
 
 ## Getting Started
 

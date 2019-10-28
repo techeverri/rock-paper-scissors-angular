@@ -1,7 +1,7 @@
 {
   "name": "game-of-drones",
   "version": "0.0.1",
-  "description": "In Game of Drones there are two players trying to conquer each other",
+  "description": "In Rock, Paper, Scissors there are two players trying to conquer each other",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
