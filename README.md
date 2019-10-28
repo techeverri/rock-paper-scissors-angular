@@ -37,7 +37,7 @@ We have preconfigured the project with a simple development web server. The simp
 
     npm start
 
-Now browse to the app at http://localhost:80/.
+Now browse to the app at http://localhost:8080/.
 
 ## Credits
 

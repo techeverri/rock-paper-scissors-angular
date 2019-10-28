@@ -1,5 +1,5 @@
 
-var PORT = process.env.PORT || 80;
+var PORT = process.env.PORT || 8080;
 
 // lowdb
 
