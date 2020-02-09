@@ -22,6 +22,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use(express.static('node_modules'));
 
+app.get("/ping", function ping(req, res) {
+  return res.send("pong")
+})
+
 app.get("/", function (request, response) {
     response.sendFile(__dirname + '/index.html');
 });
