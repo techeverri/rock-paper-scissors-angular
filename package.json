@@ -12,7 +12,7 @@
     "angular-animate": "^1.8.3",
     "angular-aria": "^1.8.3",
     "angular-material": "^1.0.9",
-    "angular-route": "^1.5.6",
+    "angular-route": "^1.8.3",
     "body-parser": "^1.15.1",
     "express": "^4.18.2",
     "jquery": "^3.6.3",
