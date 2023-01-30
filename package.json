@@ -21,7 +21,7 @@
     "open": "8.4.0"
   },
   "devDependencies": {
-    "nodemon": "1.18.11"
+    "nodemon": "2.0.20"
   },
   "engines": {
     "node": ">=14.x"
