@@ -25,10 +25,10 @@ angular-aria@^1.8.3:
   resolved "https://registry.yarnpkg.com/angular-aria/-/angular-aria-1.8.3.tgz#b387ebca9569eb557855abb283a09c2d0457e779"
   integrity sha512-qTXclmTW/KGw5JNKKQPcCKKq6hCBZ39jYINmLgMsjUHBAoxULaMRRTaRj/L2VTOjKvK5f9enkx+EUqRqzXDSFQ==
 
-angular-material@^1.0.9:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/angular-material/-/angular-material-1.2.2.tgz#42a0e1ab196980476f08c20efcbd4541678e2600"
-  integrity sha512-GtrBzYDg5zHYX/OUqxo72zb9bsY0RDuIA+4ZsZjuv1r+L4q9UAtkeIZzMXVGua6CCNgfB58cKep3TmxtAZhNwg==
+angular-material@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/angular-material/-/angular-material-1.2.5.tgz#6fb3fbf3622d443e4449aaf237d692ad04623a23"
+  integrity sha512-bTTDV0vszpfms1tAMzhLntxBiNMCk/I3Mx/vhbtfhijJILODjpDBfWah0nvWrniFIcxMLcsb1tcPri13hZEaew==
 
 angular-route@^1.8.3:
   version "1.8.3"
